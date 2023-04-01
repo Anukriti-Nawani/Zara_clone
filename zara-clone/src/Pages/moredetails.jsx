@@ -10,7 +10,7 @@ const Moredetails=()=> {
     const {id}=useParams();
     const{handalecartdata,handaleproductid,productsid}=useContext(Cartcontext)
     useEffect(()=>{
-        axios.get(`https://my-fack-api.herokuapp.com/Zaraproducts?_id=${id}`).then(res=>{
+        axios.get(`https://vast-pear-bream-suit.cyclic.app/Zaraproducts?_id=${id}`).then(res=>{
             setPagedata(res.data);
             // console.log(res.data)
         })
