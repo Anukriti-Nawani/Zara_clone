@@ -30,7 +30,7 @@ function Child() {
 
 
   useEffect(() => {
-    let url = `https://my-fack-api.herokuapp.com/Zaraproducts`;
+    let url = `https://vast-pear-bream-suit.cyclic.app/Zaraproducts`;
     if (sort) {
       url = url + `?type1=Kids&_sort=${sort}&_order=asc&_page=${page}&_limit=20`
     }
