@@ -74,7 +74,7 @@ const Moredetails=()=> {
           </Box>
 
           <Box width="25%">
-          {pagedata===""?null: <img src={pagedata[0].imgUrl} alt=""/>}
+          {pagedata===""?null: <img src={pagedata.imgUrl} alt=""/>}
           </Box>
           <Box width={["100%", "20%", "20%"]}>
             {pagedata===""?null: <Text mt={8}>{pagedata.prod_name}</Text>}
@@ -85,7 +85,7 @@ const Moredetails=()=> {
               fontWeight="300"
             >
             </Text>
-            {pagedata===""?null: <Text mt={8}>₹{pagedata[0].price}</Text>}
+            {pagedata===""?null: <Text mt={8}>₹{pagedata.price}</Text>}
             <Text>Mrp included of all tax</Text>
 
             <Box mt={8} borderTop="1px" borderBottom="1px" borderColor="black">
