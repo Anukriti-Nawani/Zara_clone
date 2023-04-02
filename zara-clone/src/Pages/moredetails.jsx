@@ -77,7 +77,7 @@ const Moredetails=()=> {
           {pagedata===""?null: <img src={pagedata[0].imgUrl} alt=""/>}
           </Box>
           <Box width={["100%", "20%", "20%"]}>
-            {pagedata===""?null: <Text mt={8}>{pagedata[0].prod_name}</Text>}
+            {pagedata===""?null: <Text mt={8}>{pagedata.prod_name}</Text>}
             <Text
               style={{ maxHeight: "20%", overflow: "auto" }}
               mt={8}
