@@ -5,7 +5,7 @@ import { Cartcontext } from '../Context/Cartcontext';
 import axios from 'axios';
 import Loading from '../Components/Loading';
 const Moredetails=()=> {
-   const [pagedata, setPagedata] = useState();
+   const [pagedata, setPagedata] = useState("");
    const [existedproduct, setExistedproduct] = useState(false);
     const {id}=useParams();
     const{handalecartdata,handaleproductid,productsid}=useContext(Cartcontext)
